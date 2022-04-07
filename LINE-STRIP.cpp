@@ -14,7 +14,7 @@ void display()
 	glClear(GL_COLOR_BUFFER_BIT);
 	gluOrtho2D(0.0,500.0,0,500.0);
 	glColor3f(1.0,0.0,0.0);
-	glBegin(GL_POINTS);
+	glBegin(GL_LINE_STRIP);
 		glVertex2i(200,100);
 		glVertex2i(70,20);
 		glVertex2i(120,150);
